@@ -6,7 +6,6 @@ const mergeLang = (ctx, lang, target) => {
   if (!target) return;
   let i18n = ctx.theme.i18n;
   let source = i18n.get(lang);
-  console.log(source)
   Object.keys(target).forEach(key => {
     if (source[key]) return;
     source[key] = target[key];
