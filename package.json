@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jiangtj-lab/hexo-cake-utils#readme",
   "dependencies": {
-    "js-yaml": "^3.13.1"
+    "js-yaml": "^4.0.0"
   }
 }
